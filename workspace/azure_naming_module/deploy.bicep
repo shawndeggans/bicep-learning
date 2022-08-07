@@ -37,11 +37,11 @@ Banner made with: https://manytools.org/hacker-tools/ascii-banner/ [ANSI Shadow]
   'azureDataExplorer'
   'azureDataShare'
   'azureTimeSeriesInsights'
-  'microsoftGraphDataConnect'
   'microsoftPurview'
-  'azureStorageSccount'
-  'azureSosmosDb'
-  'azureSql'
+  'azureStorageAccount'
+  'azureStorageAccountDataLake'
+  'azureCosmosDb'
+  'azureSqlServer'
   'azureSqldb'
   'azureMysql'
   'azureMariadb'
@@ -118,5 +118,5 @@ var resourcNoDashes = join(arrayResoureName, '')
 
 //We'll use this operator to determine which naming convetion to output
 //var useDashes = resourceObject['naming-rules'] ? 'This is with dashes' : 'This has no dashes'
-output resourceName string = sharedResourceTypes.resources[resourceType].namingRules.dashes ? resourceWithDashes : resourcNoDashes
+output resourceName string = toLower(sharedResourceTypes.resources[resourceType].namingRules.dashes ? resourceWithDashes : resourcNoDashes)
 

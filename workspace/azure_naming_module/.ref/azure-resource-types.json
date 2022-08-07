@@ -303,22 +303,10 @@
 
                 }
             },
-            "microsoftGraphDataConnect": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
-                "icon": "",
-                "namingRules": {
-                    "lengthMin": "",
-                    "lengthMax": "",
-                    "dashes": true
-
-                }
-            },
             "microsoftPurview": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+                "assetType": "Azure Purview instance",
+                "namespace": "Microsoft.Purview/accounts",
+                "abbreviation": "pview",
                 "icon": "",
                 "namingRules": {
                     "lengthMin": "",
@@ -327,10 +315,34 @@
 
                 }
             },
-            "azureStorageSccount": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+            "azureStorageAccount": {
+                "assetType": "Storage account",
+                "namespace": "Microsoft.Storage/storageAccounts",
+                "abbreviation": "st",
+                "icon": "",
+                "namingRules": {
+                    "lengthMin": "3",
+                    "lengthMax": "24",
+                    "dashes": false
+
+                }
+            },
+            "azureStorageAccountDataLake": {
+                "assetType": "Storage account",
+                "namespace": "Microsoft.Storage/storageAccounts",
+                "abbreviation": "adls",
+                "icon": "",
+                "namingRules": {
+                    "lengthMin": "3",
+                    "lengthMax": "24",
+                    "dashes": false
+
+                }
+            },
+            "azureCosmosDb": {
+                "assetType": "Azure Cosmos DB database",
+                "namespace": "Microsoft.DocumentDB/databaseAccounts/sqlDatabases",
+                "abbreviation": "cosmos",
                 "icon": "",
                 "namingRules": {
                     "lengthMin": "",
@@ -339,38 +351,26 @@
 
                 }
             },
-            "azureSosmosDb": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+            "azureSqlServer": {
+                "assetType": "Azure SQL Database server",
+                "namespace": "Microsoft.Sql/servers",
+                "abbreviation": "sql",
                 "icon": "",
                 "namingRules": {
-                    "lengthMin": "",
-                    "lengthMax": "",
-                    "dashes": true
-
-                }
-            },
-            "azureSql": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
-                "icon": "",
-                "namingRules": {
-                    "lengthMin": "",
-                    "lengthMax": "",
+                    "lengthMin": "1",
+                    "lengthMax": "63",
                     "dashes": true
 
                 }
             },
             "azureSqldb": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+                "assetType": "Azure SQL database",
+                "namespace": "Microsoft.Sql/servers/databases",
+                "abbreviation": "sqldb",
                 "icon": "",
                 "namingRules": {
-                    "lengthMin": "",
-                    "lengthMax": "",
+                    "lengthMin": "1",
+                    "lengthMax": "128",
                     "dashes": true
 
                 }
@@ -412,14 +412,26 @@
                 }
             },
             "dedicatedSqlPools": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+                "assetType": "workspaces / sqlPools",
+                "namespace": "Microsoft.Synapse/workspaces/sqlPools",
+                "abbreviation": "syndp",
                 "icon": "",
                 "namingRules": {
-                    "lengthMin": "",
-                    "lengthMax": "",
-                    "dashes": true
+                    "lengthMin": "1",
+                    "lengthMax": "60",
+                    "dashes": false
+
+                }
+            },
+            "dedicatedSparkPools": {
+                "assetType": "workspaces / bigDataPools",
+                "namespace": "Microsoft.Synapse/workspaces/sqlPools",
+                "abbreviation": "synsp",
+                "icon": "",
+                "namingRules": {
+                    "lengthMin": "1",
+                    "lengthMax": "15",
+                    "dashes": false
 
                 }
             },
