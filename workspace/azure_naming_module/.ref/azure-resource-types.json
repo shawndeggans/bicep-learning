@@ -5,468 +5,468 @@
     "resources":
         {
             "template": {
-                "asset-type": "",
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
                 }
             },
-            "resource-group": {
-                "asset-type": "",
+            "resourceGroup": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
-                    "dashes": true
-
-                }
-            },
-            "azrue-tag": {
-                "asset-type": "",
-                "namespace": "",
-                "abbreviation": "",
-                "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "private-endpoints": {
-                "asset-type": "",
+            "azrueTag": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "virtual-networks": {
-                "asset-type": "",
+            "privateEndpoint": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "network-security-groups": {
-                "asset-type": "",
+            "virtualNetwork": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
+                    "dashes": true
+
+                }
+            },
+            "networkSecurityGroup": {
+                "assetType": "",
+                "namespace": "",
+                "abbreviation": "",
+                "icon": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
             "bastion": {
-                "asset-type": "",
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "network-interface": {
-                "asset-type": "",
+            "networkInterface": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "public-ip-address": {
-                "asset-type": "",
+            "publicIpAddress": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "virtual-machines": {
-                "asset-type": "",
+            "virtualMachine": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "key-vault": {
-                "asset-type": "",
+            "keyVault": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "azure-synapse" : {
-                "asset-type": "",
+            "azureSynapse" : {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "azure-synapse-private-link-hub": {
-                "asset-type": "",
+            "azureSynapsePrivateLinkHub": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "azure-ad-group": {
-                "asset-type": "",
+            "azureAdGroup": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "azure-managed-identity": {
-                "asset-type": "",
+            "azureManagedIdentity": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
             "databricks": {
-                "asset-type": "",
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
             "hdinsight": {
-                "asset-type": "",
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "azure-data-factory": {
-                "asset-type": "",
+            "azureDataFactory": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "azure-machine-learning": {
-                "asset-type": "",
+            "azureMachineLearning": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "azure-stream-analytics": {
-                "asset-type": "",
+            "azureStreamAnalytics": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "azure-analysis-services": {
-                "asset-type": "",
+            "azureAnalysisServices": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "event-hubs": {
-                "asset-type": "",
+            "eventHub": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "azure-data-explorer": {
-                "asset-type": "",
+            "azureDataExplorer": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "azure-data-share": {
-                "asset-type": "",
+            "azureDataShare": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "azure-time-series-insights": {
-                "asset-type": "",
+            "azureTimeSeriesInsights": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "microsoft-graph-data-connect": {
-                "asset-type": "",
+            "microsoftGraphDataConnect": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "microsoft-purview": {
-                "asset-type": "",
+            "microsoftPurview": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "azure-storage-account": {
-                "asset-type": "",
+            "azureStorageSccount": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "azure-cosmos-db": {
-                "asset-type": "",
+            "azureSosmosDb": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "azure-sql": {
-                "asset-type": "",
+            "azureSql": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "azure-sql-db": {
-                "asset-type": "",
+            "azureSqldb": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "azure-mysql": {
-                "asset-type": "",
+            "azureMysql": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "azure-mariadb": {
-                "asset-type": "",
+            "azureMariadb": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "azure-postgresql": {
-                "asset-type": "",
+            "azurePostgresql": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "dedicated-sql-pools": {
-                "asset-type": "",
+            "dedicatedSqlPools": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "power-platform": {
-                "asset-type": "",
+            "powerPlatform": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "iot-hub": {
-                "asset-type": "",
+            "iotHub": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "iot-central": {
-                "asset-type": "",
+            "iotCentral": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }
             },
-            "azure-digital-twins": {
-                "asset-type": "",
+            "azureDigitalTwins": {
+                "assetType": "",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
-                "naming-rules": {
-                    "length-min": "",
-                    "length-max": "",
+                "namingRules": {
+                    "lengthMin": "",
+                    "lengthMax": "",
                     "dashes": true
 
                 }

@@ -14,44 +14,44 @@ Banner made with: https://manytools.org/hacker-tools/ascii-banner/ [ANSI Shadow]
 
 @description('The type of resource registered with the Azure Naming Module.')
 @allowed([
-  'resource-group'
-  'azure-tag'
-  'private-endpoints'
-  'virtual-networks'
-  'network-security-groups'
+  'resourceGroup'
+  'azrueTag'
+  'privateEndpoint'
+  'virtualNetwork'
+  'networkSecurityGroup'
   'bastion'
-  'network-interface'
-  'public-ip-address'
-  'virtual-machines'
-  'key-vault'
-  'azure-synapse'
-  'azure-synapse-private-link-hub'
-  'azure-ad-group'
-  'azure-managed-identity'
+  'networkInterface'
+  'publicIpAddress'
+  'virtualMachine'
+  'keyVault'
+  'azureSynapse'
+  'azureSynapsePrivateLinkHub'
+  'azureAdGroup'
+  'azureManagedIdentity'
   'databricks'
-  'hdinsights'
-  'azure-data-factory'
-  'azure-machine-learning'
-  'azure-stream-analytics'
-  'azure-analysis-services'
-  'event-hubs'
-  'azure-data-explorer'
-  'azure-data-share'
-  'azure-time-series-insights'
-  'microsoft-graph-data-connect'
-  'microsoft-purview'
-  'azure-storage-account'
-  'azure-cosmos-db'
-  'azure-sql'
-  'azure-sql-db'
-  'azure-mysql'
-  'azure-mariadb'
-  'azure-postgresql'
-  'dedicated-sql-pools'
-  'power-platform'
-  'iot-hub'
-  'iot-central'
-  'azure-digital-twins'
+  'hdinsight'
+  'azureDataFactory'
+  'azureMachineLearning'
+  'azureStreamAnalytics'
+  'azureAnalysisServices'
+  'eventHub'
+  'azureDataExplorer'
+  'azureDataShare'
+  'azureTimeSeriesInsights'
+  'microsoftGraphDataConnect'
+  'microsoftPurview'
+  'azureStorageSccount'
+  'azureSosmosDb'
+  'azureSql'
+  'azureSqldb'
+  'azureMysql'
+  'azureMariadb'
+  'azurePostgresql'
+  'dedicatedSqlPools'
+  'powerPlatform'
+  'iotHub'
+  'iotCentral'
+  'azureDigitalTwins'
 ])
 param resourceType string
 
@@ -94,9 +94,30 @@ param businessUnit string
 @maxLength(4)
 param instance string = '01'
 
-var resourcesElement = 'resources'
 var sharedRegionCodes = json(loadTextContent('.ref/azure-regions.json'))
+var resourceLocation = sharedRegionCodes.locations[region]
 var sharedResourceTypes = json(loadTextContent('.ref/azure-resource-types.json'))
-var resourceObject = sharedResourceTypes[resourcesElement][resourceType]
+var resourceShortcode = sharedResourceTypes.resources[resourceType].abbreviation
 
-var useDashes = resourceObject['naming-rules'] ? 'This is with dashes' : 'This has no dashes'
+/*
+************************************************************************
+Change the order or shape of these string to customize your naming convetion
+************************************************************************
+*/
+
+// EXAMPLE rg-eus2-dev-analytics-sales-01
+var arrayResoureName = [
+  resourceShortcode
+  resourceLocation
+  environment
+  application
+  businessUnit
+  instance
+]
+var resourceWithDashes = join(arrayResoureName, '-')
+var resourcNoDashes = join(arrayResoureName, '')
+
+//We'll use this operator to determine which naming convetion to output
+//var useDashes = resourceObject['naming-rules'] ? 'This is with dashes' : 'This has no dashes'
+output resourceName string = sharedResourceTypes.resources[resourceType].namingRules.dashes ? resourceWithDashes : resourcNoDashes
+
