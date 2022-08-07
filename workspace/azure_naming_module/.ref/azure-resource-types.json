@@ -16,25 +16,13 @@
                 }
             },
             "resourceGroup": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+                "assetType": "Resource group",
+                "namespace": "Microsoft.Resources/resourceGroups",
+                "abbreviation": "rg",
                 "icon": "",
                 "namingRules": {
-                    "lengthMin": "",
-                    "lengthMax": "",
-                    "dashes": true
-
-                }
-            },
-            "azrueTag": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
-                "icon": "",
-                "namingRules": {
-                    "lengthMin": "",
-                    "lengthMax": "",
+                    "lengthMin": "3",
+                    "lengthMax": "63",
                     "dashes": true
 
                 }
@@ -42,115 +30,115 @@
             "privateEndpoint": {
                 "assetType": "",
                 "namespace": "",
-                "abbreviation": "",
+                "abbreviation": "pep",
                 "icon": "",
                 "namingRules": {
                     "lengthMin": "",
                     "lengthMax": "",
-                    "dashes": true
+                    "dashes": false
 
                 }
             },
             "virtualNetwork": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+                "assetType": "Virtual network",
+                "namespace": "Microsoft.Network/virtualNetworks",
+                "abbreviation": "vnet",
                 "icon": "",
                 "namingRules": {
-                    "lengthMin": "",
-                    "lengthMax": "",
+                    "lengthMin": "1",
+                    "lengthMax": "80",
                     "dashes": true
 
                 }
             },
             "networkSecurityGroup": {
-                "assetType": "",
+                "assetType": "networkSecurityGroups securityRules",
                 "namespace": "",
                 "abbreviation": "",
                 "icon": "",
                 "namingRules": {
-                    "lengthMin": "",
-                    "lengthMax": "",
+                    "lengthMin": "1",
+                    "lengthMax": "80",
                     "dashes": true
 
                 }
             },
             "bastion": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+                "assetType": "bastionHosts",
+                "namespace": "Microsoft.Network/bastionHosts",
+                "abbreviation": "bas",
                 "icon": "",
                 "namingRules": {
-                    "lengthMin": "",
-                    "lengthMax": "",
+                    "lengthMin": "1",
+                    "lengthMax": "80",
                     "dashes": true
 
                 }
             },
             "networkInterface": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+                "assetType": "Network interface (NIC)",
+                "namespace": "Microsoft.Network/networkInterfaces",
+                "abbreviation": "nic",
                 "icon": "",
                 "namingRules": {
                     "lengthMin": "",
                     "lengthMax": "",
-                    "dashes": true
+                    "dashes": false
 
                 }
             },
             "publicIpAddress": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+                "assetType": "Public IP Address",
+                "namespace": "Microsoft.Network/publicIPAddresses",
+                "abbreviation": "pip",
                 "icon": "",
                 "namingRules": {
                     "lengthMin": "",
                     "lengthMax": "",
-                    "dashes": true
+                    "dashes": false
 
                 }
             },
             "virtualMachine": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+                "assetType": "Virtual machine",
+                "namespace": "Microsoft.Compute/virtualMachines",
+                "abbreviation": "vm",
                 "icon": "",
                 "namingRules": {
-                    "lengthMin": "",
-                    "lengthMax": "",
+                    "lengthMin": "1",
+                    "lengthMax": "15",
                     "dashes": true
 
                 }
             },
             "keyVault": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+                "assetType": "vaults",
+                "namespace": "Microsoft.KeyVault/vaults",
+                "abbreviation": "kv",
                 "icon": "",
                 "namingRules": {
-                    "lengthMin": "",
-                    "lengthMax": "",
+                    "lengthMin": "3",
+                    "lengthMax": "24",
                     "dashes": true
 
                 }
             },
             "azureSynapse" : {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+                "assetType": "Azure Synapse Analytics",
+                "namespace": "Microsoft.Synapse/workspaces",
+                "abbreviation": "syn",
                 "icon": "",
                 "namingRules": {
-                    "lengthMin": "",
-                    "lengthMax": "",
+                    "lengthMin": "1",
+                    "lengthMax": "50",
                     "dashes": true
 
                 }
             },
             "azureSynapsePrivateLinkHub": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+                "assetType": "Private Link",
+                "namespace": "Microsoft.Network/privateLinkServices",
+                "abbreviation": "pl",
                 "icon": "",
                 "namingRules": {
                     "lengthMin": "",
@@ -162,7 +150,7 @@
             "azureAdGroup": {
                 "assetType": "",
                 "namespace": "",
-                "abbreviation": "",
+                "abbreviation": "grp",
                 "icon": "",
                 "namingRules": {
                     "lengthMin": "",
@@ -172,25 +160,25 @@
                 }
             },
             "azureManagedIdentity": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+                "assetType": "Managed Identity",
+                "namespace": "Microsoft.ManagedIdentity/userAssignedIdentities",
+                "abbreviation": "id",
                 "icon": "",
                 "namingRules": {
-                    "lengthMin": "",
-                    "lengthMax": "",
+                    "lengthMin": "3",
+                    "lengthMax": "128",
                     "dashes": true
 
                 }
             },
             "databricks": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+                "assetType": "Azure Databricks workspace",
+                "namespace": "Microsoft.Databricks/workspaces",
+                "abbreviation": "dbw",
                 "icon": "",
                 "namingRules": {
-                    "lengthMin": "",
-                    "lengthMax": "",
+                    "lengthMin": "3",
+                    "lengthMax": "64",
                     "dashes": true
 
                 }
@@ -198,7 +186,7 @@
             "hdinsight": {
                 "assetType": "",
                 "namespace": "",
-                "abbreviation": "",
+                "abbreviation": "hdi",
                 "icon": "",
                 "namingRules": {
                     "lengthMin": "",
@@ -208,73 +196,85 @@
                 }
             },
             "azureDataFactory": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+                "assetType": "Azure Data Factory",
+                "namespace": "Microsoft.DataFactory/factories",
+                "abbreviation": "adf",
                 "icon": "",
                 "namingRules": {
-                    "lengthMin": "",
-                    "lengthMax": "",
+                    "lengthMin": "3",
+                    "lengthMax": "63",
                     "dashes": true
 
                 }
             },
             "azureMachineLearning": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+                "assetType": "Azure Machine Learning workspace",
+                "namespace": "Microsoft.MachineLearningServices/workspaces",
+                "abbreviation": "mlw",
                 "icon": "",
                 "namingRules": {
-                    "lengthMin": "",
-                    "lengthMax": "",
+                    "lengthMin": "1",
+                    "lengthMax": "260",
                     "dashes": true
 
                 }
             },
             "azureStreamAnalytics": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+                "assetType": "Azure Stream Analytics",
+                "namespace": "Microsoft.StreamAnalytics/cluster",
+                "abbreviation": "asa",
                 "icon": "",
                 "namingRules": {
-                    "lengthMin": "",
-                    "lengthMax": "",
+                    "lengthMin": "3",
+                    "lengthMax": "63",
                     "dashes": true
 
                 }
             },
             "azureAnalysisServices": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+                "assetType": "Azure Analysis Services server",
+                "namespace": "Microsoft.AnalysisServices/servers",
+                "abbreviation": "as",
                 "icon": "",
                 "namingRules": {
-                    "lengthMin": "",
-                    "lengthMax": "",
-                    "dashes": true
+                    "lengthMin": "3",
+                    "lengthMax": "63",
+                    "dashes": false
 
                 }
             },
             "eventHub": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+                "assetType": "Event hub",
+                "namespace": "Microsoft.EventHub/namespaces/eventHubs",
+                "abbreviation": "evh",
                 "icon": "",
                 "namingRules": {
-                    "lengthMin": "",
-                    "lengthMax": "",
+                    "lengthMin": "6",
+                    "lengthMax": "50",
                     "dashes": true
 
                 }
             },
             "azureDataExplorer": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+                "assetType": "Azure Data Explorer cluster",
+                "namespace": "Microsoft.Kusto/clusters",
+                "abbreviation": "dec",
                 "icon": "",
                 "namingRules": {
                     "lengthMin": "",
                     "lengthMax": "",
+                    "dashes": false
+
+                }
+            },
+            "azureDataExplorerdb": {
+                "assetType": "Azure Data Explorer cluster Database",
+                "namespace": "Microsoft.Kusto/clusters/databases",
+                "abbreviation": "dedb",
+                "icon": "",
+                "namingRules": {
+                    "lengthMin": "4",
+                    "lengthMax": "22",
                     "dashes": true
 
                 }
@@ -282,23 +282,23 @@
             "azureDataShare": {
                 "assetType": "",
                 "namespace": "",
-                "abbreviation": "",
+                "abbreviation": "ds",
                 "icon": "",
                 "namingRules": {
                     "lengthMin": "",
                     "lengthMax": "",
-                    "dashes": true
+                    "dashes": false
 
                 }
             },
             "azureTimeSeriesInsights": {
-                "assetType": "",
-                "namespace": "",
-                "abbreviation": "",
+                "assetType": "Time Series Insights environment",
+                "namespace": "Microsoft.TimeSeriesInsights/environments",
+                "abbreviation": "tsi",
                 "icon": "",
                 "namingRules": {
-                    "lengthMin": "",
-                    "lengthMax": "",
+                    "lengthMin": "1",
+                    "lengthMax": "90",
                     "dashes": true
 
                 }

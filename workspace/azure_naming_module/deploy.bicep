@@ -15,7 +15,6 @@ Banner made with: https://manytools.org/hacker-tools/ascii-banner/ [ANSI Shadow]
 @description('The type of resource registered with the Azure Naming Module.')
 @allowed([
   'resourceGroup'
-  'azrueTag'
   'privateEndpoint'
   'virtualNetwork'
   'networkSecurityGroup'
